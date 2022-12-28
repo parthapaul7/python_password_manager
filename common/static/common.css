@@ -1,0 +1,119 @@
+/**
+ * Web Password Manager
+ */
+
+/* COMMON */
+
+* { margin: 0; padding: 0; }
+
+html { font-size: 14px; }
+
+body { font-family: Verdana, Geneva, sans-serif; }
+
+a { 
+    text-decoration: none; 
+    color: #0071c3;
+    border-bottom: 1px solid #0071c3;
+}
+
+a:hover { background: #0071c3; color: #fff; }
+
+.container { margin: 0 auto; width: 60%; }
+
+.tcenter { text-align: center; }
+
+.fbold { font-weight: bold; }
+
+.fleft { float: left; }
+
+.fright { float: right; }
+
+/* COMMON PADDING & MARGINS */
+
+.m10 { margin: 10px 0; }
+.m10-top { margin-top: 10px; }
+.m10-bottom { margin-bottom: 10px; }
+
+.m20 { margin: 20px 0; }
+.m20-top { margin-top: 20px; }
+.m20-bottom { margin-bottom: 20px; }
+
+.p10 { padding: 10px 0; }
+.p10-top { padding-top: 10px; }
+.p10-bottom { padding-bottom: 10px; }
+
+.p20 { padding: 20px 0; }
+.p20-top { padding-top: 20px; }
+.p20-bottom { padding-bottom: 20px; }
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/* MESSAGES */
+
+.messages li { list-style-type: none; font-weight: bold; }
+
+.messages .success { color: #12b900; }
+.messages .error { color: #d60000; }
+.messages .warning { color: #ffe200; }
+
+.a-success { color: #12b900; border-bottom: 1px solid #12b900;}
+.a-success:hover { color: #fff; background: #12b900; }
+
+.a-error { color: #d60000; border-bottom: 1px solid #d60000; }
+.a-error:hover { color: #fff; background: #d60000; }
+
+/* BUTTONS */
+
+button.success { background: #20dc00; }
+button.success:hover { background: #3bff19; }
+
+button.warning { background: #ffa533; }
+button.warning:hover { background: #ffb65a; }
+
+button.error { background:#ff2424; }
+button.error:hover { background: #f55757; }
+
+.btn { 
+    padding: 4px 5px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+
+.btn:hover { cursor: pointer; }
+
+/* NAVBAR */
+
+#navbar {
+    width: 100%;
+    padding: 20px 0;
+}
+
+#navbar .navbar-list { list-style-type: none; }
+
+#navbar .navbar-list li { display: inline-block; }
+
+#navbar .navbar-list li:after { content: ' | ' }
+
+#navbar .navbar-list li:last-child:after { content: ''; }
+
+.main .header { padding: 20px 0; }
+
+/* FOOTER */
+
+#footer {
+    margin-top: 40px;
+    border-top: 3px solid #ddd;
+    font-size: .9rem;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 1200px) {
+    .container { width: 80%; }
+}
+
+@media only screen and (max-width: 768px) {
+    .container { width: 95%; }
+}
